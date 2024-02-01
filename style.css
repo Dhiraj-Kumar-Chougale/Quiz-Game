@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: hsla(49, 75%, 75%, 0.83);
+  }
+  
+  #quiz-container {
+    background-color: rgb(169, 233, 211);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #457a07d2;
+    border-radius: 10px;
+  }
+
+  #options-container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: hsla(111, 34%, 44%, 0.628); /* Red background color */
+    color: white; /* White text color */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  #submit-btn {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: hsla(18, 74%, 46%, 0.902); /* Red background color */
+    color: white; /* White text color */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  #submit-btn:hover {
+    background-color: hsla(18, 74%, 40%, 0.902);
+  }
+
+  button:hover {
+    background-color: hsla(126, 31%, 27%, 0.902); /* Darker green on hover */
+  }
+  
