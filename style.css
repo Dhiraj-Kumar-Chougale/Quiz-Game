@@ -25,20 +25,20 @@ body {
   button {
     padding: 10px;
     margin-top: 10px;
-    background-color: hsla(111, 34%, 44%, 0.628); /* Red background color */
-    color: white; /* White text color */
-    border: none; /* Remove borders */
-    border-radius: 5px; /* Rounded corners */
+    background-color: hsla(111, 34%, 44%, 0.628);
+    color: white; 
+    border: none; 
+    border-radius: 5px;
     cursor: pointer;
   }
   
   #submit-btn {
     padding: 10px;
     margin-top: 10px;
-    background-color: hsla(18, 74%, 46%, 0.902); /* Red background color */
-    color: white; /* White text color */
-    border: none; /* Remove borders */
-    border-radius: 5px; /* Rounded corners */
+    background-color: hsla(18, 74%, 46%, 0.902); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
     cursor: pointer;
   }
   #submit-btn:hover {
@@ -46,6 +46,6 @@ body {
   }
 
   button:hover {
-    background-color: hsla(126, 31%, 27%, 0.902); /* Darker green on hover */
+    background-color: hsla(126, 31%, 27%, 0.902);
   }
   

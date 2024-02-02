@@ -5,19 +5,29 @@ const quizData = [
     correctAnswer: "Paris",
   },
   {
-    question: "What is the capital of india?",
-    options: ["Berlin", "Madrid", "Delhi", "Rome"],
+    question: "What is the capital of India?",
+    options: ["Mumbai", "Delhi", "Chennai", "kolkata"],
     correctAnswer: "Delhi",
   },
   {
     question: "What is the capital of USA?",
-    options: ["Berlin", "Madrid", "New York", "Rome"],
-    correctAnswer: "New York",
+    options: ["Chicago", "Los Angeles", "Washington D.C", "New York"],
+    correctAnswer: "Washington D.C",
   },
   {
     question: "What is the capital of England?",
-    options: ["Berlin", "Madrid", "London", "Rome"],
+    options: ["Manchester", "London", "Yorkshire", "Dublin"],
     correctAnswer: "London",
+  },
+  {
+    question: "What is the capital of Oman?",
+    options: ["Muscat", "Tehran", "Islambad", "Riyadh"],
+    correctAnswer: "Muscat",
+  },
+  {
+    question: "What is the capital of  Indonesia?",
+    options: ["Budapest", "Kingston", "Jakarta", "Tokyo"],
+    correctAnswer: "Jakarta",
   },
 ];
 
