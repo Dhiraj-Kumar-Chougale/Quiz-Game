@@ -48,4 +48,8 @@ body {
   button:hover {
     background-color: hsla(126, 31%, 27%, 0.902);
   }
+
+  button:focus {
+    background-color: hsla(126, 31%, 27%, 0.902);
+  }
   
