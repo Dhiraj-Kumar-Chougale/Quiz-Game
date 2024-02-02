@@ -15,7 +15,6 @@ body {
   }
 
   #options-container {
-
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -28,7 +27,7 @@ body {
     background-color: hsla(111, 34%, 44%, 0.628);
     color: white; 
     border: none; 
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
   }
   
