@@ -29,10 +29,51 @@ const quizData = [
     options: ["Budapest", "Kingston", "Jakarta", "Tokyo"],
     correctAnswer: "Jakarta",
   },
+  {
+    question: "What is the capital of Tamil Nadu?",
+    options: ["Coimbatore", "Kanchipuram", "Chennai", "Maduri"],
+    correctAnswer: "Chennai",
+  },
+  {
+    question: "What is the capital of Uttaranchal?",
+    options: ["Dehradun", "Haridwar", "Chandigarh", "Meerut"],
+    correctAnswer: "Dehradun",
+  },
+  {
+    question: "What is the capital of Rajastan?",
+    options: ["Ajmer", "Rajsamand", "Jaipur", "Jodhpur"],
+    correctAnswer: "Jaipur",
+  },
+  {
+    question: "What is the capital of  Gujrat?",
+    options: ["Prbandar", "Surat", "Gandhinagar", "Vododara"],
+    correctAnswer: "Gandhinagar",
+  },
 ];
 
 let currentQuestion = 0;
 let userAnswers = [];
+
+
+const userScores = document.querySelector('.user-score');
+
+function calculateScore(answers) {
+  let score = 0;
+
+  for (let i = 0; i < quizData.length; i++) {
+    if (answers[i] === quizData[i].correctAnswer) {
+      score++;
+    }
+  }
+
+  return score;
+}
+
+const updateScore = () => {
+  let userScore = calculateScore(userAnswers);
+  userScores.innerText = `Your Score: ${userScore}/ ${quizData.length}`;
+}
+
 
 function loadQuestion() {
   const questionElement = document.getElementById("question");
@@ -64,10 +105,16 @@ function submitAnswer() {
   }
 
   currentQuestion++;
+  updateScore();
   if (currentQuestion < quizData.length) {
     loadQuestion();
   } else {
     alert("Quiz completed!");
   }
 }
+
+
+
+
 loadQuestion();
+
